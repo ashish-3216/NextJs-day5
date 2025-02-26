@@ -1,21 +1,71 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.teacher-container, .find-container ,.student-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  background-color: rgb(174, 194, 240);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 0 auto;
+  min-height: 180px;
+}
+.find-container{
+  width: 40%;
+}
+input {
+  margin: 20px 0;
+  font-size: inherit;
+  padding: 10px 5px;
+  border-radius: 8px;
+}
+button {
+  margin-bottom: 10px;
+  border-radius: 8px;
+  padding: 10px;
+  cursor: pointer;
+  background-color: aqua;
+  font-size: inherit;
+  border: none;
+}
+.teacher-container input {
+  margin-bottom: 20px;
+  border-radius: 8px;
+  padding: 10px;
+
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.teacher-container button {
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width:700px) {
+  .teacher-container, .find-container ,.student-container
+    {
+      width: 80%;
+    }
+    .container{
+      flex-direction: column;
+    }
 }

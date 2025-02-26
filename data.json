@@ -1,0 +1,246 @@
+{
+  "teachers": [
+    {
+      "id": 1,
+      "name": "Mr. Smith",
+      "subject": "Mathematics",
+      "experience": 10
+    },
+    {
+      "id": 2,
+      "name": "Ms. Johnson",
+      "subject": "Science",
+      "experience": 8
+    },
+    {
+      "id": 3,
+      "name": "Mrs. Brown",
+      "subject": "English",
+      "experience": 12
+    },
+    {
+      "id": 4,
+      "name": "Mr. Davis",
+      "subject": "History",
+      "experience": 7
+    },
+    {
+      "id": 5,
+      "name": "Ms. Wilson",
+      "subject": "Computer Science",
+      "experience": 9
+    }
+  ],
+  "students": [
+    {
+      "id": 1,
+      "name": "Alice",
+      "age": 14,
+      "grade": "9th",
+      "teacherId": 1
+    },
+    {
+      "id": 2,
+      "name": "Bob",
+      "age": 15,
+      "grade": "10th",
+      "teacherId": 2
+    },
+    {
+      "id": 3,
+      "name": "Charlie",
+      "age": 14,
+      "grade": "9th",
+      "teacherId": 3
+    },
+    {
+      "id": 4,
+      "name": "David",
+      "age": 13,
+      "grade": "8th",
+      "teacherId": 4
+    },
+    {
+      "id": 5,
+      "name": "Ella",
+      "age": 15,
+      "grade": "10th",
+      "teacherId": 5
+    },
+    {
+      "id": 6,
+      "name": "Frank",
+      "age": 14,
+      "grade": "9th",
+      "teacherId": 1
+    },
+    {
+      "id": 7,
+      "name": "Grace",
+      "age": 13,
+      "grade": "8th",
+      "teacherId": 2
+    },
+    {
+      "id": 8,
+      "name": "Henry",
+      "age": 14,
+      "grade": "9th",
+      "teacherId": 3
+    },
+    {
+      "id": 9,
+      "name": "Isabella",
+      "age": 15,
+      "grade": "10th",
+      "teacherId": 4
+    },
+    {
+      "id": 10,
+      "name": "Jack",
+      "age": 13,
+      "grade": "8th",
+      "teacherId": 5
+    },
+    {
+      "id": 11,
+      "name": "Katie",
+      "age": 14,
+      "grade": "9th",
+      "teacherId": 1
+    },
+    {
+      "id": 12,
+      "name": "Leo",
+      "age": 15,
+      "grade": "10th",
+      "teacherId": 2
+    },
+    {
+      "id": 13,
+      "name": "Mia",
+      "age": 14,
+      "grade": "9th",
+      "teacherId": 3
+    },
+    {
+      "id": 14,
+      "name": "Nathan",
+      "age": 13,
+      "grade": "8th",
+      "teacherId": 4
+    },
+    {
+      "id": 15,
+      "name": "Olivia",
+      "age": 15,
+      "grade": "10th",
+      "teacherId": 5
+    },
+    {
+      "id": 16,
+      "name": "Peter",
+      "age": 14,
+      "grade": "9th",
+      "teacherId": 1
+    },
+    {
+      "id": 17,
+      "name": "Quinn",
+      "age": 13,
+      "grade": "8th",
+      "teacherId": 2
+    },
+    {
+      "id": 18,
+      "name": "Rachel",
+      "age": 14,
+      "grade": "9th",
+      "teacherId": 3
+    },
+    {
+      "id": 19,
+      "name": "Sam",
+      "age": 15,
+      "grade": "10th",
+      "teacherId": 4
+    },
+    {
+      "id": 20,
+      "name": "Tina",
+      "age": 13,
+      "grade": "8th",
+      "teacherId": 5
+    },
+    {
+      "id": 21,
+      "name": "Umar",
+      "age": 14,
+      "grade": "9th",
+      "teacherId": 1
+    },
+    {
+      "id": 22,
+      "name": "Vera",
+      "age": 15,
+      "grade": "10th",
+      "teacherId": 2
+    },
+    {
+      "id": 23,
+      "name": "Will",
+      "age": 14,
+      "grade": "9th",
+      "teacherId": 3
+    },
+    {
+      "id": 24,
+      "name": "Xander",
+      "age": 13,
+      "grade": "8th",
+      "teacherId": 4
+    },
+    {
+      "id": 25,
+      "name": "Yasmine",
+      "age": 15,
+      "grade": "10th",
+      "teacherId": 5
+    },
+    {
+      "id": 26,
+      "name": "Zane",
+      "age": 14,
+      "grade": "9th",
+      "teacherId": 1
+    },
+    {
+      "id": 27,
+      "name": "Ava",
+      "age": 13,
+      "grade": "8th",
+      "teacherId": 2
+    },
+    {
+      "id": 28,
+      "name": "Ben",
+      "age": 14,
+      "grade": "9th",
+      "teacherId": 3
+    },
+    {
+      "id": 29,
+      "name": "Clara",
+      "age": 15,
+      "grade": "10th",
+      "teacherId": 4
+    },
+    {
+      "id": 30,
+      "name": "Daniel",
+      "age": 13,
+      "grade": "8th",
+      "teacherId": 5
+    }
+  ]
+}
