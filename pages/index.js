@@ -36,7 +36,7 @@ export default function Home() {
           Fetch Students Data
         </button>
         {students.map((student) => {
-          return <div key={student.id}>{student.name}</div>;
+          return <div key={student.id}>{student.id} {student.name}</div>;
         })}
       </div>
       <div className="teacher-container">
@@ -49,7 +49,7 @@ export default function Home() {
           Fetch Teachers Data
         </button>
         {teachers.map((teacher) => {
-          return <div key={teacher.id}>{teacher.name}</div>;
+          return <div key={teacher.id}>{teacher.id} {teacher.name}</div>;
         })}
       </div>
       <div className="find-container">
@@ -71,7 +71,7 @@ export default function Home() {
         {Id > 5 && <div>Invalid Teacher ID</div>}
         {findTeacher.length > 0 &&
           findTeacher.map((student) => {
-            return <div key={student.id}>{student.name}</div>;
+            return <div key={student.id}>{student.id} {student.name}</div>;
           })}
       </div>
     </div>
