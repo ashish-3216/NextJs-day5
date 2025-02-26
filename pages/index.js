@@ -75,7 +75,7 @@ export default function Home() {
         {Id > 5 && <div>Invalid Teacher ID</div>}
         {findTeacher.length > 0 &&
           findTeacher.map((student) => {
-            return <ol key={student.id}><li> {student.name}</li></ol >;
+            return <ul key={student.id}><li> {student.name}</li></ul >;
           })}
       </div>
     </div>
