@@ -62,20 +62,28 @@ export default function Home() {
           placeholder="Enter Teacher ID"
           onChange={(e) => {
             setTeacherId(parseInt(e.target.value));
+            if (e.target.value <= 0 || e.target.value > 5) {
+              setTeacherId(0);
+              setFindTeacher([]);
+            }
           }}
         />
         <button
           onClick={() => {
             setFindTeacher(findStudents(Id));
-            setTeacherId(0);
           }}
         >
           Find Students
         </button>
-        {Id > 5 && <div>Invalid Teacher ID</div>}
-        {findTeacher.length > 0 &&
+        {Id === 0 && <div>Invalid Teacher ID</div>}
+        {Id <= 5 &&
+          findTeacher.length > 0 &&
           findTeacher.map((student) => {
-            return <ul key={student.id}><li> {student.name}</li></ul >;
+            return (
+              <ul key={student.id}>
+                <li> {student.name}</li>
+              </ul>
+            );
           })}
       </div>
     </div>
