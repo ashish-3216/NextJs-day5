@@ -1,4 +1,5 @@
 import { useState } from "react";
+import AddTeacherForm from "./Components/AddTeacher";
 export default function Home() {
   const [students, setStudents] = useState([]);
   const [teachers, setTeachers] = useState([]);
